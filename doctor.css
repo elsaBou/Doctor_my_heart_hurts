@@ -1,0 +1,141 @@
+body {
+  width: 100%;
+  margin: auto;
+  font-family: 'Arvo', serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #AA3939;
+}
+
+#image {
+  display: block;
+  position: absolute;
+  margin-left: 93vh;
+}
+
+#epaule {
+  position: absolute;
+  left: 10px;
+  top: 90px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #363030;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+#epaule:hover {
+  background-color: #AA3939;
+  opacity: 0.7;
+}
+
+#coude {
+   position: absolute;
+   left: 120px;
+   top: 185px;
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   background-color: #363030;
+   border-radius: 15px;
+   opacity: 0.3;
+}
+#coude:hover {
+  background-color: #AA3939;
+  opacity: 0.7;
+}
+
+
+#poignet {
+  position:
+  absolute;
+  left: 1px;
+  top: 215px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #363030;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+#poignet:hover {
+  background-color: #AA3939;
+  opacity: 0.7;
+}
+
+
+#hanche {
+  position: absolute;
+  left: 100px;
+  top: 240px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #363030;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+#hanche:hover {
+  background-color: #AA3939;
+  opacity: 0.7;
+}
+
+
+#genou {
+  position: absolute;
+  left: 25px;
+  top: 350px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #363030;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+#genou:hover {
+  background-color: #AA3939;
+  opacity: 0.7;
+}
+
+
+#cheville {
+  position: absolute;
+  left: 80px;
+  top: 430px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #363030;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+#cheville:hover {
+  background-color: #AA3939;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 700px)
+{
+  nav {
+   width: 100%;
+   display: block;
+   flex-wrap: wrap;
+ }
+/* propriétés pour mobile */
+}
+@media screen and (max-width: 976px)
+{
+  nav {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+  }
+/* propriétés pour tablette */
+}
